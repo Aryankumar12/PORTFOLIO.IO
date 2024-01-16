@@ -6,23 +6,23 @@ export const Data = [
     {
       id: 1,
       image: Image1,
-      title: "Jhon Doe",
+      title: "Harshit Yadav",
       description:
         "A really good job, all aspects of the project were followed step by step and with good results.",
     },
     {
       id: 2,
       image: Image2,
-      title: "Harry Clinton",
+      title: "Anshul Chaudhary",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "You shoudl do freelacing, so that you can showcase you skills",
     },
     {
       id: 3,
       image: Image3,
-      title: "Sara Cill",
+      title: "Sunny",
       description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Great website but have some minor bugs that can be cleaned further",
     },
   ];
   

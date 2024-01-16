@@ -1,11 +1,35 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
+
 
 
 const serviceId = process.env.REACT_APP_SERVICE_ID;
 const templateId = process.env.REACT_APP_TEMPLATE_ID;
 const publicId = process.env.REACT_APP_PUBLIC_ID;
+
+const MyForm = () => {
+    const formik = useFormik({
+      initialValues: {
+        name: '',
+        email: '',
+        project: '',
+      },
+      validationSchema: Yup.object({
+        name: Yup.string().required('Name is required'),
+        email: Yup.string().email('Invalid email address').required('Email is required'),
+        project: Yup.string().required('Project details are required'),
+      }),
+      onSubmit: (values) => {
+        // Handle form submission logic here (e.g., call your sendEmail function)
+        console.log(values);
+        // sendEmail(values);
+      },
+    });
+}
 
 const Contact = () => {
     const form = useRef();
@@ -28,7 +52,7 @@ const Contact = () => {
                             <div className="contact__card">
                                 <i className="bx bx-mail-send contact__card-icon"></i>
                                 <h3 className="contact__card-title">Email</h3>
-                                <span className="contact__card-data">user@gmail.com</span>
+                                <span className="contact__card-data">aryancse123@gmail.com</span>
                                 <a href="mailto:aryancse123@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i> </a>
                             </div>
                             <div className="contact__card">
@@ -48,26 +72,29 @@ const Contact = () => {
                     <div className="contact__content">
                         <h3 className="contact__title">Write me you project</h3>
 
-                        <form ref={form} onSubmit={sendEmail} className='contact__form'>
+                        
+
+
+                        <form ref={form} onSubmit={sendEmail}  className='contact__form'>
                             <div className="contact__form-div">
                                 <label className="contact__form-tag">
                                     Name
                                 </label>
-                                <input type="text" name='name' className='contact__form-input' placeholder='Insert you name' />
+                                <input type="text" name='name' className='contact__form-input' placeholder='Insert you name' required/>
 
                             </div>
                             <div className="contact__form-div">
                                 <label htmlFor="" className="contact__form-tag">
                                     Email
                                 </label>
-                                <input type="email" name='email' className='contact__form-input' placeholder='Insert you mail' />
+                                <input type="email" name='email' className='contact__form-input' placeholder='Insert you mail' required/>
 
                             </div>
                             <div className="contact__form-div contact__form-area">
                                 <label htmlFor="" className="contact__form-tag">
                                     Project
                                 </label>
-                                <textarea name="project" cols="30" rows="10" placeholder='write you project' className='contact__form-input'></textarea>
+                                <textarea name="project" cols="30" rows="10" placeholder='write you project' className='contact__form-input' required></textarea>
 
                             </div>
                             <button className='button button--flex'>
@@ -91,6 +118,7 @@ const Contact = () => {
                                 </svg>
                             </button>
                         </form>
+                     
                     </div>
                 </div>
             </section>

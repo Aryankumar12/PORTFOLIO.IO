@@ -10,14 +10,14 @@ const Backend = () => {
                         <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Html</h3>
-                        <span className="skills__level">basic</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
                     <div className="skills__data">
                         <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">CSS</h3>
-                        <span className="skills__level">basic</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
                     <div className="skills__data">
@@ -33,21 +33,21 @@ const Backend = () => {
                         <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">bootstarp</h3>
-                        <span className="skills__level">basic</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
                     <div className="skills__data">
                         <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">git</h3>
-                        <span className="skills__level">medium</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
                     <div className="skills__data">
                         <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">react</h3>
-                        <span className="skills__level">intermediate</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ const Qualificaton = () => {
                         <i className="uil uil-graduation-cap qualification__icon"></i>education
                     </div>
                     <div className={toggleState===2?"qualification__button qualification__active  button--flex":"qualification__button  button--flex"} onClick={()=>toggleTab(2)}>
-                        <i className="uil uil-briefcase-alt qualification__icon"></i>experience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i>Skills
                     </div>
                 </div>
 
@@ -28,11 +28,11 @@ const Qualificaton = () => {
                     <div className={toggleState===1?"qualification__content qualification__content-active":"qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualifiction__title">Web Devlopment</h3>
+                                <h3 className="qualifiction__title">CSE</h3>
                                 <span className="qualification__subtitle">Engineering</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2021 -present
+                                    2022-present
                                 </div>
                             </div>
                             <div>
@@ -51,24 +51,24 @@ const Qualificaton = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualifiction__title">UI Ux Expert</h3>
-                                <span className="qualification__subtitle">Engineering</span>
+                                <h3 className="qualifiction__title">Higher Secondary Certificate</h3>
+                                <span className="qualification__subtitle">Prelude Public School</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    2019-2020
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualifiction__title">Secondary School Certificate</h3>
+                                <span className="qualification__subtitle">Prelude Public School</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                     2017-2018
                                 </div>
                             </div>
-
-                        </div>
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualifiction__title">Web designing</h3>
-                                <span className="qualification__subtitle">Engineering</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2021-present
-                                </div>
-                            </div>
                             <div>
                                 <span className="qualification__rounder">
                                 </span>
@@ -85,11 +85,11 @@ const Qualificaton = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualifiction__title">Art Director</h3>
-                                <span className="qualification__subtitle">Engineering</span>
+                                <h3 className="qualifiction__title">Junior Schooling</h3>
+                                <span className="qualification__subtitle">Father Agnel School</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2021-present
+                                    2008-2016
                                 </div>
                             </div>
 
@@ -98,12 +98,9 @@ const Qualificaton = () => {
                     <div className={toggleState===2?"qualification__content qualification__content-active":"qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualifiction__title">product design</h3>
-                                <span className="qualification__subtitle">Engineering</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2018-2020
-                                </div>
+                                <h3 className="qualifiction__title">Front-End Web Devlopment</h3>
+                                <span className="qualification__subtitle">Udemy</span>
+                                
                             </div>
                             <div>
                                 <span className="qualification__rounder">
@@ -121,23 +118,41 @@ const Qualificaton = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualifiction__title">UI Ux Expert</h3>
-                                <span className="qualification__subtitle">Engineering</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2017-2018
-                                </div>
+                                <h3 className="qualifiction__title">Editing</h3>
+                                <span className="qualification__subtitle">Youtube</span>
+                                
                             </div>
 
                         </div>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualifiction__title">Web designing</h3>
-                                <span className="qualification__subtitle">Figma spain</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2021-present
-                                </div>
+                                <h3 className="qualifiction__title">C language</h3>
+                                <span className="qualification__subtitle">Youtube</span>
+                               
+                            </div>
+                            <div>
+                                <span className="qualification__rounder">
+                                </span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualifiction__title">Football</h3>
+                                
+                               
+                            </div>
+                            <div>
+                                <span className="qualification__rounder">
+                                </span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualifiction__title">Sprinting</h3>
+                                
+                               
                             </div>
                             <div>
                                 <span className="qualification__rounder">

@@ -39,8 +39,7 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Product desinger</h3>
               <p className="services__modal-description">
-                SErvice with more than 3 years of experience. Providg quality
-                work ot clients and compienesf
+                I can build product design using canva 
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -85,7 +84,7 @@ const Services = () => {
               Designer
             </h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(2)}>
             View More{" "}
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -95,8 +94,7 @@ const Services = () => {
               <i className="uil uil-times services__modal-close"></i>
               <h3 className="services__modal-title">Ui ux designer</h3>
               <p className="services__modal-description">
-                SErvice with more than 3 years of experience. Providg quality
-                work ot clients and compienesf
+                Service will be comming soon
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -140,7 +138,7 @@ const Services = () => {
               visual <br /> Designer
             </h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More{" "}
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -150,8 +148,7 @@ const Services = () => {
               <i className="uil uil-times services__modal-close"></i>
               <h3 className="services__modal-title">visual Designer</h3>
               <p className="services__modal-description">
-                SErvice with more than 3 years of experience. Providg quality
-                work ot clients and compienesf
+                I am building it 
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
